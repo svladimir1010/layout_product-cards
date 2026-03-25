@@ -1,7 +1,7 @@
 .card {
   box-sizing: border-box;
   width: $card-width;
-  border: 1px solid #f3f3f3;
+  border: 1px solid $color-border;
   border-radius: 5px;
   align-items: center;
   margin: auto;
@@ -98,7 +98,7 @@
     width: 100%;
     margin-top: 16px;
     background-color: $color-buy-button;
-    color: #fff;
+    color: $color-white;
     border: 1px solid $color-buy-button;
     border-radius: 5px;
     text-decoration: none;
